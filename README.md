@@ -1,6 +1,3 @@
-# Fin-data-analysis-Homework
-
-
 # 金融数据分析：两次大作业
 2025.12
 
@@ -24,3 +21,25 @@
 3. 使用沪深300公司的财务数据进行训练，预测ROE增量、毛利率、每股收益三个指标；并利用随机森林模型，用测出的指标预测股票的收益率
 4. 结合第一次作业，可以对沪深300中分行业的财务数据进行预测（已成功实现）
 
+# Financial Data Analysis: Two Major Assignments
+2025.12
+
+## Project Language: Python
+
+## First Assignment Description:
+Utilize CSI 300 shareholder data to conduct shareholder analysis. Construct a shareholder capability scoring system and calculate shareholders' excess returns.
+
+### Project Details:
+1. Download data and preprocess
+2. Extract the industry of each company based on its description
+3. Visualize a specific shareholder's investment industries and concentration; analyze trends in industry concentration, portfolio scale, and other data
+4. Build a shareholder capability scoring system, scoring elements such as portfolio growth capability, investment stability, concentration, and scale, then calculate a weighted average
+
+## Second Assignment Description:
+Read research papers, use a two-layer GRU to predict future values of CSI 300 financial data, and use these predicted values to forecast the next period's returns.
+
+### Project Details:
+1. Completed most of the data preprocessing work
+2. Through paper review and experimental comparison, decided to use a three-layer GRU to build the model (each GRU layer internally consists of 2 layers)
+3. Train using financial data of CSI 300 companies to predict three indicators: ROE increment, gross margin, and earnings per share; then use a Random Forest model with the predicted indicators to forecast stock returns
+4. Combined with the first assignment, successfully implemented industry-specific financial data prediction for CSI 300 companies
